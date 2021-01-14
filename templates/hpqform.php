@@ -11,7 +11,7 @@ body {
 </style>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Cheer Up by Horus</title>
+  <title>Mind and Self by Horus</title>
 
   <!-- CSS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -21,38 +21,32 @@ body {
 </head>
 <body>
   <nav class="#82b1ff blue accent-1" role="navigation">
-    <div class="left"><a id="logo-container" href="#" class="brand-logo">Team Iris</a>    
+    <div class="left"><a id="logo-container" href="#" class="brand-logo">Team Horus</a>    
     </div>
   </nav>
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h5 class="header center grey-text">Trouble falling or staying asleep, or sleeping too much</h5>
+      <h5 class="header center grey-text">What was your schedule today?</h5>
       <div class="input-field col s12">
       <form action="#">
     <p>
       <label>
         <input name="group1" type="radio" checked />
-        <span>Not at all</span>
+        <span>Regular Schedule</span>
       </label>
     </p>
     <p>
       <label>
         <input name="group1" type="radio" />
-        <span>Several days</span>
+        <span>Rotating Schedule</span>
       </label>
     </p>
     <p>
       <label>
         <input class="with-gap" name="group1" type="radio"  />
-        <span>More than half the days</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input name="group1" type="radio" disabled="disabled" />
-        <span>Nearly every day</span>
+        <span>Extra Schedule</span>
       </label>
     </p>
   </form>
@@ -63,7 +57,8 @@ body {
         <div class="section no-pad-bot" id="index-banner">
     
       <br><br>
-      <h5 class="header center grey-text">Poor appetite or overeating</h5>
+      <h5 class="header center grey-text">. How often did you find yourself not
+working as carefully as you should?</h5>
       <div class="input-field col s12">
       <form action="#">
     <p>
@@ -98,7 +93,9 @@ body {
   <div class="section no-pad-bot" id="index-banner">
     
       <br><br>
-      <h5 class="header center grey-text">Trouble concentrating on things, such as reading the newspaper or watching television</h5>
+      <h5 class="header center grey-text">. How often did health problems limit
+the kind or amount of work you
+could do? </h5>
       <div class="input-field col s12">
       <form action="#">
     <p>
@@ -132,7 +129,7 @@ body {
   <div class="section no-pad-bot" id="index-banner">
     
       <br><br>
-      <h5 class="header center grey-text">Feeling tired or having little energy</h5>
+      <h5 class="header center grey-text">How often were you too tired to carry out your daily activities? </h5>
       <div class="input-field col s12">
       <form action="#">
     <p>
@@ -175,7 +172,7 @@ body {
 
 
       <div class="row center">
-        <a href="{{ url_for('testpage') }}"  class="btn-large waves-effect waves-light #1976d2 blue darken-2">Next</a>
+        <a href="{{ url_for('hpqtp') }}"  class="btn-large waves-effect waves-light #1976d2 blue darken-2">Next</a>
       </div>
       <br><br>
     </div>

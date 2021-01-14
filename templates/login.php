@@ -12,7 +12,7 @@ body {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Cheer Up by Iris</title>
+  <title>Mind and Self by Horus</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -42,7 +42,7 @@ body {
         </form>
         <div class="row center">
           <br>
-        <a href="{{ url_for('form') }}" id="download-button" class="btn-large waves-effect waves-light #1976d2 blue darken-2">Login</a>
+        <a href="{{ url_for('hpqform') }}" id="download-button" class="btn-large waves-effect waves-light #1976d2 blue darken-2">Login</a>
       </div>
   </div>
 </div>

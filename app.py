@@ -30,9 +30,17 @@ def login():
 def testpage():
     return render_template('testpage.php')
 
-@app.route('/form')
-def form():
-    return render_template('form.php')
+@app.route('/hpqtp')
+def hpqtp():
+    return render_template('hpqtp.php')
+
+@app.route('/phqform')
+def phqform():
+    return render_template('phqform.php')
+
+@app.route('/hpqform')
+def hpqform():
+    return render_template('hpqform.php')
 
 @app.route('/analyse')
 def analyse():
