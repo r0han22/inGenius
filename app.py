@@ -70,7 +70,7 @@ def analyse():
     #print("everything present")
     f=[]
     fig, ax = plt.subplots()
-    x, sr = librosa.load(r".\output.wav")
+    x, sr = librosa.load("output.wav")
     plt.specgram(x,Fs=sr)
     fig.savefig(r'.\56.png')
     test_image = image.load_img(r'.\56.png', target_size=(64, 64))
